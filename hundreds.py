@@ -1,6 +1,8 @@
 from ds import ds as d
 
 def hundreds(x:int) -> str:
+  if x in d:
+    return d[x]
   n1 = x //100 # 132 // 100 =1
   x %= 100 #132 %100 = 32
   n2 = (x//10)*10 #(32 //10)*10= 30
