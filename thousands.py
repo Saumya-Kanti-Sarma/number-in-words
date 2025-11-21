@@ -1,7 +1,7 @@
 from ds import ds as d
 from tens import tens
 from hundreds import hundreds
-def thousands(x:int) -> str:
+def    thousands(x:int) -> str:
   if x < 10000:
     n1 = x //1000 # 1323 // 1000 =1
     x %= 1000 #1323 %1000 = 323

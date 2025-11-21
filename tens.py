@@ -9,6 +9,6 @@ def tens(x:int)-> str:
     return f"{d[x]}teen"
   #21-99 except 10 multiples 
   elif x >20 and x%10 !=0 and x <100:
-    fd = x // 10 #23 // 10 = 2 
+    fd = (x // 10)*10 #23 // 10 = 2 
     ld =  x%10 #23 % 10 = 3
     return f"{d[fd]} {d[ld]}"
