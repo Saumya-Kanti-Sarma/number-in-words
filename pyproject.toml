@@ -1,0 +1,18 @@
+[project]
+name = "number-in-words"
+version = "0.1.0"
+description = "Convert numbers into English words easily"
+authors = [
+  { name="Saumya Kanti Sarma", email="work.saumyasarma@gmail.com" }
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://github.com/Saumya-Kanti-Sarma/number-in-words"
+Repository = "https://github.com/Saumya-Kanti-Sarma/number-in-words"
+Issues = "https://github.com/Saumya-Kanti-Sarma/number-in-words"
+
+[tool.setuptools.packages.find]
+where = ["."]
