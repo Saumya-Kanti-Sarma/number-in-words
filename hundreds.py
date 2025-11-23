@@ -1,4 +1,4 @@
-from ds import ds as d
+from .ds import ds as d
 
 def hundreds(x:int) -> str:
   if x in d:

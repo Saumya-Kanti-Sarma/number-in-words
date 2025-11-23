@@ -1,4 +1,4 @@
-from ds import ds as d
+from .ds import ds as d
 from hundreds import hundreds
 from tens import tens
 from thousands import thousands

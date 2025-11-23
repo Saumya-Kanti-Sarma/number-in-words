@@ -1,4 +1,4 @@
-from ds import ds as d
+from .ds import ds as d
 
 def tens(x:int)-> str:
   if x in d:

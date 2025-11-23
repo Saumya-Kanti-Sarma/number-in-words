@@ -1,4 +1,4 @@
-from ds import ds as d
+from .ds import ds as d
 from tens import tens
 from hundreds import hundreds
 def    thousands(x:int) -> str:
