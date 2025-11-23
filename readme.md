@@ -1,16 +1,16 @@
-# 📘 number-in-words
+# 📘 number_in_words
 
 Convert integers into readable English words – simple, fast, and dependency-free.
 
-[![PyPI version](https://img.shields.io/pypi/v/number-in-words.svg)](https://pypi.org/project/number-in-words/)
-[![Python versions](https://img.shields.io/pypi/pyversions/number-in-words.svg)](https://pypi.org/project/number-in-words/)
+[![PyPI version](https://img.shields.io/pypi/v/number_in_words.svg)](https://pypi.org/project/number_in_words/)
+[![Python versions](https://img.shields.io/pypi/pyversions/number_in_words.svg)](https://pypi.org/project/number_in_words/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
 ## Overview
 
-**number-in-words** is a lightweight Python package that converts numbers into English words.
+**number_in_words** is a lightweight Python package that converts numbers into English words.
 It supports values from **0** up to **billions**, formatted just like humans speak.
 
 ✔ No dependencies
@@ -25,7 +25,7 @@ It supports values from **0** up to **billions**, formatted just like humans spe
 Install using pip:
 
 ```bash
-pip install number-in-words
+pip install number_in_words
 ```
 
 ---
@@ -109,7 +109,7 @@ one million two hundred thousand three hundred five
 
 Contributions, issues, and pull requests are welcome.
 
-If you find this package useful, please consider giving the repository a ⭐ on  [GitHub!](https://github.com/Saumya-Kanti-Sarma/number-in-words)
+If you find this package useful, please consider giving the repository a ⭐ on  [GitHub!](https://github.com/Saumya-Kanti-Sarma/number_in_words)
 
 ---
 

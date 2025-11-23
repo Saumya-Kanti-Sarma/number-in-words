@@ -1,6 +1,6 @@
 [project]
-name = "number-in-words"
-version = "0.1.1"
+name = "number_in_words"
+version = "0.1.2"
 description = "Convert numbers into English words easily"
 authors = [
   { name="Saumya Kanti Sarma", email="work.saumyasarma@gmail.com" }
