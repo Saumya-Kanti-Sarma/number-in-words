@@ -1,2 +1,4 @@
 .vscode
 __pycache__
+dist
+number_in_words.egg-info
