@@ -1,1 +1,1 @@
-from .main import main as num
+from .number_to_words import generate_word
