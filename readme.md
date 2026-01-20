@@ -1,16 +1,16 @@
-# 📘 number_in_words
+# 📘 number_to_words
 
 Convert integers into readable English words – simple, fast, and dependency-free.
 
-[![PyPI version](https://img.shields.io/pypi/v/number_in_words.svg)](https://pypi.org/project/number_in_words/)
-[![Python versions](https://img.shields.io/pypi/pyversions/number_in_words.svg)](https://pypi.org/project/number_in_words/)
+[![PyPI version](https://img.shields.io/pypi/v/number_to_words.svg)](https://pypi.org/project/number_to_words/)
+[![Python versions](https://img.shields.io/pypi/pyversions/number_to_words.svg)](https://pypi.org/project/number_to_words/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
 ## Overview
 
-**number_in_words** is a lightweight Python package that converts numbers into English words.
+**number_to_words** is a lightweight Python package that converts numbers into English words.
 It supports values from **0** up to **billions**, formatted just like humans speak.
 
 ✔ No dependencies
@@ -25,7 +25,7 @@ It supports values from **0** up to **billions**, formatted just like humans spe
 Install using pip:
 
 ```bash
-pip install number_in_words
+pip install number_to_words
 ```
 
 ---
@@ -35,7 +35,7 @@ pip install number_in_words
 ### Basic example
 
 ```python
-import number_in_words as nw
+import number_to_words as nw
 
 print(nw.num(45))        # forty five
 print(nw.num(2024))      # two thousand twenty four
@@ -45,7 +45,7 @@ print(nw.num(987654321)) # nine hundred eighty seven million six hundred fifty f
 ### Importing the function directly
 
 ```python
-from number_in_words import num
+from number_to_words import num
 
 print(num(123))  # one hundred twenty three
 ```
@@ -69,7 +69,7 @@ print(num(123))  # one hundred twenty three
 ## Project Structure
 
 ```
-number_in_words/
+number_to_words/
     __init__.py
     main.py
     ds.py
@@ -93,7 +93,7 @@ Convert any integer to its English representation.
 **Example:**
 
 ```python
-from number_in_words import num
+from number_to_words import num
 num(1200305)
 ```
 
@@ -109,7 +109,7 @@ one million two hundred thousand three hundred five
 
 Contributions, issues, and pull requests are welcome.
 
-If you find this package useful, please consider giving the repository a ⭐ on  [GitHub!](https://github.com/Saumya-Kanti-Sarma/number_in_words)
+If you find this package useful, please consider giving the repository a ⭐ on  [GitHub!](https://github.com/Saumya-Kanti-Sarma/number_to_words)
 
 ---
 
